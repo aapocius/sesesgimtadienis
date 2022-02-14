@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas {
+  display: block;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 0, 0, 0.776);
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  animation: vardas 3s infinite linear;
+}
+
+h2 {
+  position: absolute;
+  top: 33%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  color: rgba(77, 8, 238, 0.762);
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  animation: sveikinu 5s infinite linear;
+}
+
+.su {
+  position: absolute;
+  top: 46%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  color: rgba(8, 238, 66, 0.762);
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  animation: su 7s infinite linear;
+}
+
+.gimtadieniu {
+  position: absolute;
+  top: 60%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  color: rgba(238, 8, 192, 0.762);
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  animation: gimtadieniu 9s infinite linear;
+}
+
+@keyframes vardas {
+  from {
+    transform: scale(1%);
+  }
+  to {
+    transform: scale(100%);
+  }
+}
+@keyframes sveikinu {
+  from {
+    transform: scale(1%);
+  }
+  to {
+    transform: scaleY(80%);
+  }
+}
+@keyframes su {
+  from {
+    transform: scale(1%);
+  }
+  to {
+    transform: scaleY(80%);
+  }
+}
+@keyframes gimtadieniu {
+  from {
+    transform: scale(1%);
+  }
+  to {
+    transform: scale(150%);
+  }
+}
